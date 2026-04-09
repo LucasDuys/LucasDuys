@@ -23,49 +23,48 @@ I build AI tooling: agents, dev workflows, and the glue around them.
 
 <table>
   <tr>
-    <td>
-      <a href="https://github.com/LucasDuys/forge">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=forge&theme=gruvbox&hide_border=true">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=forge&theme=gruvbox_light&hide_border=true" alt="forge" />
-        </picture>
-      </a>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/LucasDuys/forge">forge</a></h3>
+      <p>Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LucasDuys/forge?style=flat-square&label=stars&color=D65D0E&labelColor=3C3836" />
+        <img src="https://img.shields.io/badge/JavaScript-3C3836?style=flat-square&logo=javascript&logoColor=FBF1C7" />
+      </p>
     </td>
-    <td>
-      <a href="https://github.com/LucasDuys/hackaway-grocery-agent">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=hackaway-grocery-agent&theme=gruvbox&hide_border=true">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=hackaway-grocery-agent&theme=gruvbox_light&hide_border=true" alt="hackaway-grocery-agent" />
-        </picture>
-      </a>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/LucasDuys/hackaway-grocery-agent">hackaway-grocery-agent</a></h3>
+      <p>Multi-agent grocery orchestration system. One sentence in, full Picnic cart out. Built at Hackaway 2026.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LucasDuys/hackaway-grocery-agent?style=flat-square&label=stars&color=D65D0E&labelColor=3C3836" />
+        <img src="https://img.shields.io/badge/TypeScript-3C3836?style=flat-square&logo=typescript&logoColor=FBF1C7" />
+      </p>
     </td>
   </tr>
   <tr>
-    <td>
-      <a href="https://github.com/LucasDuys/graphbot">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=graphbot&theme=gruvbox&hide_border=true">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=graphbot&theme=gruvbox_light&hide_border=true" alt="graphbot" />
-        </picture>
-      </a>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/LucasDuys/graphbot">graphbot</a></h3>
+      <p>Make any LLM smarter. Recursive DAG decomposition plus a temporal knowledge graph. 30 of 30 tasks passing at $0.0006 total.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LucasDuys/graphbot?style=flat-square&label=stars&color=D65D0E&labelColor=3C3836" />
+        <img src="https://img.shields.io/badge/Python-3C3836?style=flat-square&logo=python&logoColor=FBF1C7" />
+      </p>
     </td>
-    <td>
-      <a href="https://github.com/LucasDuys/monotoken">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=monotoken&theme=gruvbox&hide_border=true">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=monotoken&theme=gruvbox_light&hide_border=true" alt="monotoken" />
-        </picture>
-      </a>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/LucasDuys/monotoken">monotoken</a></h3>
+      <p>Deterministic, tokenizer-aware encoder that compresses LLM agent planning and state files ~22%. No LLM calls. A Claude Code skill.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LucasDuys/monotoken?style=flat-square&label=stars&color=D65D0E&labelColor=3C3836" />
+        <img src="https://img.shields.io/badge/JavaScript-3C3836?style=flat-square&logo=javascript&logoColor=FBF1C7" />
+      </p>
     </td>
   </tr>
 </table>
 
 ## Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=LucasDuys&theme=gruvbox&hide_border=true&area=true&radius=8&custom_title=Contribution%20activity">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LucasDuys&theme=github-light&hide_border=true&area=true&radius=8&custom_title=Contribution%20activity" alt="contribution graph" />
-</picture>
+<div align="center">
+  <img src="https://ghchart.rshah.org/D65D0E/LucasDuys" alt="contribution grid" width="100%" />
+</div>
 
 ## Stats
 
