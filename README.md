@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=soft&color=D65D0E&height=140&section=header&text=Lucas%20Duys&fontColor=FBF1C7&fontSize=56&fontAlignY=55" alt="header"/>
 
 <a href="https://lucasduys.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=D65D0E&center=true&vCenter=true&width=560&lines=CS+%40+TU+Eindhoven;Building+AI+tooling+that+survives+production" alt="tagline"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=D65D0E&center=true&vCenter=true&width=560&lines=CS+at+TU+Eindhoven;Building+AI+tooling+that+survives+production" alt="tagline"/>
 </a>
 
 </div>
@@ -11,7 +11,7 @@
 ---
 
 CS student at TU Eindhoven, exploring an MS at TUM.
-I build AI tooling — agents, dev workflows, and the glue around them.
+I build AI tooling: agents, dev workflows, and the glue around them.
 
 <p>
   <a href="https://lucasduys.com"><img src="https://img.shields.io/badge/lucasduys.com-3C3836?style=flat-square&logo=vercel&logoColor=FBF1C7" alt="website"/></a>
@@ -21,10 +21,31 @@ I build AI tooling — agents, dev workflows, and the glue around them.
 
 ## Currently building
 
-- **[forge](https://github.com/LucasDuys/forge)** — turn ideas into tested, reviewed, committed code. A specification-driven workflow for shipping real features with AI agents.
-- **[hackaway-grocery-agent](https://github.com/LucasDuys/hackaway-grocery-agent)** — multi-agent system that compares Dutch supermarket prices and plans meals. Started at a hackathon, expanding to all NL chains.
-- **[graphbot](https://github.com/LucasDuys/graphbot)** — recursive DAG execution engine with a temporal knowledge graph. An experiment in making any LLM smarter through decomposition.
-- **[lucasduys.com](https://lucasduys.com)** — personal site and writing.
+- **[forge](https://github.com/LucasDuys/forge)**. Turn ideas into tested, reviewed, committed code. A specification driven workflow for shipping real features with AI agents.
+- **[hackaway-grocery-agent](https://github.com/LucasDuys/hackaway-grocery-agent)**. Multi agent system that compares Dutch supermarket prices and plans meals. Started at a hackathon, expanding to all NL chains.
+- **[graphbot](https://github.com/LucasDuys/graphbot)**. Recursive DAG execution engine with a temporal knowledge graph. An experiment in making any LLM smarter through decomposition.
+- **[lucasduys.com](https://lucasduys.com)**. Personal site and writing.
+
+## Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox&include_all_commits=true&count_private=false&card_width=480">
+  <img src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox_light&include_all_commits=true&count_private=false&card_width=480" alt="stats" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=LucasDuys&theme=gruvbox&hide_border=true&card_width=480">
+  <img src="https://streak-stats.demolab.com?user=LucasDuys&theme=gruvbox-duo-white&hide_border=true&card_width=480" alt="streak" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&theme=gruvbox&langs_count=8&card_width=480">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&theme=gruvbox_light&langs_count=8&card_width=480" alt="languages" />
+</picture>
+
+</div>
 
 ## Stack
 
@@ -49,20 +70,3 @@ I build AI tooling — agents, dev workflows, and the glue around them.
   <img src="https://img.shields.io/badge/Firebase-3C3836?style=flat-square&logo=firebase&logoColor=FBF1C7" />
   <img src="https://img.shields.io/badge/Docker-3C3836?style=flat-square&logo=docker&logoColor=FBF1C7" />
 </p>
-
-## Stats
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&bg_color=00000000&theme=gruvbox&icon_color=D65D0E&title_color=D65D0E&text_color=BDAE93&include_all_commits=true" alt="stats" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&bg_color=00000000&theme=gruvbox&title_color=D65D0E&text_color=BDAE93&langs_count=8" alt="languages" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=LucasDuys&theme=gruvbox&hide_border=true&background=00000000&ring=D65D0E&fire=D65D0E&currStreakLabel=D65D0E" alt="streak" />
-</div>
