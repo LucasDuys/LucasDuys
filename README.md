@@ -10,7 +10,7 @@
 
 ---
 
-CS student at TU Eindhoven, exploring an MS at TUM.
+CS student at TU Eindhoven.
 I build AI tooling: agents, dev workflows, and the glue around them.
 
 <p>
