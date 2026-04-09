@@ -60,33 +60,6 @@ I build AI tooling: agents, dev workflows, and the glue around them.
   </tr>
 </table>
 
-## Contributions
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/1E40AF/LucasDuys" alt="contribution grid" width="100%" />
-</div>
-
-## Stats
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&bg_color=0F172A&text_color=F1F5F9&title_color=3B82F6&icon_color=3B82F6&include_all_commits=true&card_width=480">
-  <img src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&bg_color=F8FAFC&text_color=0F172A&title_color=1E40AF&icon_color=1E40AF&include_all_commits=true&card_width=480" alt="stats" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=LucasDuys&hide_border=true&background=0F172A&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&sideLabels=F1F5F9&dates=64748B&currStreakNum=F1F5F9&sideNums=F1F5F9&card_width=480">
-  <img src="https://streak-stats.demolab.com?user=LucasDuys&hide_border=true&background=F8FAFC&ring=1E40AF&fire=1E40AF&currStreakLabel=1E40AF&sideLabels=0F172A&dates=64748B&currStreakNum=0F172A&sideNums=0F172A&card_width=480" alt="streak" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&bg_color=0F172A&text_color=F1F5F9&title_color=3B82F6&langs_count=8&card_width=480">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&bg_color=F8FAFC&text_color=0F172A&title_color=1E40AF&langs_count=8&card_width=480" alt="languages" />
-</picture>
-
-</div>
-
 ## Stack
 
 <p>
