@@ -19,20 +19,61 @@ I build AI tooling: agents, dev workflows, and the glue around them.
   <a href="mailto:hello@lucasduys.com"><img src="https://img.shields.io/badge/Email-3C3836?style=flat-square&logo=protonmail&logoColor=FBF1C7" alt="email"/></a>
 </p>
 
-## Currently building
+## Featured projects
 
-- **[forge](https://github.com/LucasDuys/forge)**. Turn ideas into tested, reviewed, committed code. A specification driven workflow for shipping real features with AI agents.
-- **[hackaway-grocery-agent](https://github.com/LucasDuys/hackaway-grocery-agent)**. Multi agent system that compares Dutch supermarket prices and plans meals. Started at a hackathon, expanding to all NL chains.
-- **[graphbot](https://github.com/LucasDuys/graphbot)**. Recursive DAG execution engine with a temporal knowledge graph. An experiment in making any LLM smarter through decomposition.
-- **[lucasduys.com](https://lucasduys.com)**. Personal site and writing.
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/LucasDuys/forge">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=forge&theme=gruvbox&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=forge&theme=gruvbox_light&hide_border=true" alt="forge" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/LucasDuys/hackaway-grocery-agent">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=hackaway-grocery-agent&theme=gruvbox&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=hackaway-grocery-agent&theme=gruvbox_light&hide_border=true" alt="hackaway-grocery-agent" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/LucasDuys/graphbot">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=graphbot&theme=gruvbox&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=graphbot&theme=gruvbox_light&hide_border=true" alt="graphbot" />
+        </picture>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/LucasDuys/monotoken">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=monotoken&theme=gruvbox&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LucasDuys&repo=monotoken&theme=gruvbox_light&hide_border=true" alt="monotoken" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Activity
+## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=LucasDuys&theme=gruvbox&hide_border=true&area=true&radius=8&custom_title=Contribution%20activity">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LucasDuys&theme=github-light&hide_border=true&area=true&radius=8&custom_title=Contribution%20activity" alt="contribution graph" />
+</picture>
+
+## Stats
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox&include_all_commits=true&count_private=false&card_width=480">
-  <img src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox_light&include_all_commits=true&count_private=false&card_width=480" alt="stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox&include_all_commits=true&card_width=480">
+  <img src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&theme=gruvbox_light&include_all_commits=true&card_width=480" alt="stats" />
 </picture>
 
 <picture>
