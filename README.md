@@ -32,6 +32,16 @@ I build AI tooling: agents, dev workflows, and the glue around them.
       </p>
     </td>
     <td valign="top" width="50%">
+      <h3><a href="https://github.com/LucasDuys/cinemorph">cinemorph</a></h3>
+      <p>Generate cinematic launch films and pitch decks from a brief. FLIP morph transitions, audio bus, MP4 + PPTX export. A Claude Code plugin.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LucasDuys/cinemorph?style=flat-square&label=stars&color=1E40AF&labelColor=0F172A" />
+        <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F8FAFC" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
       <h3><a href="https://github.com/LucasDuys/hackaway-grocery-agent">hackaway-grocery-agent</a></h3>
       <p>Multi-agent grocery orchestration system. One sentence in, full Picnic cart out. Built at Hackaway 2026.</p>
       <p>
@@ -39,22 +49,12 @@ I build AI tooling: agents, dev workflows, and the glue around them.
         <img src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=F8FAFC" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" width="50%">
-      <h3><a href="https://github.com/LucasDuys/graphbot">graphbot</a></h3>
-      <p>Make any LLM smarter. Recursive DAG decomposition plus a temporal knowledge graph. 30 of 30 tasks passing at $0.0006 total.</p>
+      <h3><a href="https://github.com/LucasDuys/bunq-hackathon">bunq-hackathon</a></h3>
+      <p>Keeper — autonomous multimodal finance agent. Mercury 2 + Claude hybrid over a DAG core. Built at bunq Hackathon 7.0.</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LucasDuys/graphbot?style=flat-square&label=stars&color=1E40AF&labelColor=0F172A" />
-        <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=F8FAFC" />
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3><a href="https://github.com/LucasDuys/monotoken">monotoken</a></h3>
-      <p>Deterministic, tokenizer-aware encoder that compresses LLM agent planning and state files ~22%. No LLM calls. A Claude Code skill.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/LucasDuys/monotoken?style=flat-square&label=stars&color=1E40AF&labelColor=0F172A" />
-        <img src="https://img.shields.io/badge/JavaScript-0F172A?style=flat-square&logo=javascript&logoColor=F8FAFC" />
+        <img src="https://img.shields.io/github/stars/LucasDuys/bunq-hackathon?style=flat-square&label=stars&color=1E40AF&labelColor=0F172A" />
+        <img src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=F8FAFC" />
       </p>
     </td>
   </tr>
