@@ -97,10 +97,3 @@ CS student at TU Eindhoven. I build AI tooling: agents, dev workflows, and the g
   <img src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=F8FAFC" />
   <img src="https://img.shields.io/badge/Terraform-0F172A?style=flat-square&logo=terraform&logoColor=F8FAFC" />
 </p>
-
-## Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LucasDuys&show_icons=true&hide_border=true&bg_color=0F172A&title_color=60A5FA&icon_color=60A5FA&text_color=F8FAFC&count_private=true&include_all_commits=true&rank_icon=off" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasDuys&layout=compact&hide_border=true&bg_color=0F172A&title_color=60A5FA&text_color=F8FAFC&langs_count=6&hide=html,css" alt="languages"/>
-</div>
