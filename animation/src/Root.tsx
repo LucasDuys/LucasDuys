@@ -7,10 +7,10 @@ export const RemotionRoot: React.FC = () => {
     <Composition
       id="ProfileIntro"
       component={ProfileIntro}
-      durationInFrames={168}
+      durationInFrames={96}
       fps={24}
-      width={1200}
-      height={480}
+      width={960}
+      height={384}
     />
   );
 };

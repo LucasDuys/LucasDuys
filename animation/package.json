@@ -21,8 +21,8 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
-    "render": "remotion render src/index.ts ProfileIntro ../assets/profile-intro.gif --codec=gif --every-nth-frame=2 --number-of-gif-loops=0",
-    "render:still": "remotion still src/index.ts ProfileIntro ../assets/profile-intro-static.png --frame=24",
+    "render": "remotion render src/index.ts ProfileIntro ../assets/profile-intro.gif --codec=gif --number-of-gif-loops=0",
+    "render:still": "remotion still src/index.ts ProfileIntro ../assets/profile-intro-static.png --frame=36",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
