@@ -1,16 +1,21 @@
 <p align="center">
-  <img src="./assets/profile-banner.jpg" alt="Lucas Duys profile banner" width="100%">
+  <a href="https://lucasduys.com">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-intro-static.png">
+      <img src="./assets/profile-intro.gif" alt="Animated Lucas Duys title sequence featuring Forge, Stacklink, and lucasduys.com" width="100%">
+    </picture>
+  </a>
 </p>
 
-I'm Lucas, a Computer Science student at TU Eindhoven. I build developer tools, mostly around AI agents and LLM workflows.
+### [Forge](https://github.com/LucasDuys/forge)
 
-[website](https://lucasduys.com) / [linkedin](https://www.linkedin.com/in/lucasduys) / [email](mailto:hello@lucasduys.com)
+One idea in. Tested, reviewed, committed code out. Forge is a Claude Code plugin that takes a feature from prompt to verified commit.
 
-## Projects
+### Previous work: [Stacklink](https://stacklink.nl)
 
-- **[forge](https://github.com/LucasDuys/forge)** takes an idea through planning, implementation, testing, review, and commit in Claude Code.
-- **[microfiche](https://github.com/LucasDuys/microfiche)** stores agent context as images to reduce token use. It includes a Python package, CLI, and MCP server.
-- **[cinemorph](https://github.com/LucasDuys/cinemorph)** generates launch films and pitch decks from a brief in Claude Code.
-- **[monotoken](https://github.com/LucasDuys/monotoken)** makes LLM planning and state files about 22% smaller with deterministic encoding.
+Co-founded an EU-sovereign agentic runtime for company knowledge.
 
-TypeScript, Python, Go, PostgreSQL, Docker, and Terraform.
+- Placed second out of 70 teams at the TU/e Contest 2026, earning the €3,000 First Runner-Up prize.
+- Reached pilot stage with the Netherlands' second-largest company and built a 60+ company pipeline.
+
+[lucasduys.com](https://lucasduys.com)
