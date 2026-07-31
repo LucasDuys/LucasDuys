@@ -15,7 +15,7 @@ One idea in. Tested, reviewed, committed code out. Forge is a Claude Code plugin
 
 Co-founded an EU-sovereign agentic runtime for company knowledge.
 
-- Placed second out of 70 teams at the TU/e Contest 2026, earning the €3,000 First Runner-Up prize.
-- Won a Round One Ventures grant at the Kickoff EHV Ventures Demo Day.
+- Placed second out of 70 teams at the [TU/e Contest 2026](https://tuecontest.nl/), earning the €3,000 First Runner-Up prize.
+- Won a grant from [The Gate](https://thegate.tech/) at the [Kickoff EHV](https://www.kickoffehv.nl/) Ventures Demo Day.
 
 [lucasduys.com](https://lucasduys.com)
