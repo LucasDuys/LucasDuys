@@ -1,86 +1,171 @@
-import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
+import { loadFont } from "@remotion/fonts";
+import {
+  AbsoluteFill,
+  Easing,
+  interpolate,
+  staticFile,
+  useCurrentFrame,
+  useVideoConfig,
+} from "remotion";
 
-const ACCENT = "#c9ff4a";
-const INK = "#0b0d0c";
-const PAPER = "#eff0e8";
-const MUTED = "#8d9288";
-const EASE = Easing.bezier(0.16, 1, 0.3, 1);
+/*
+  The GitHub banner is the first viewport of lucasduys.com, cut to 960x384:
+  the same black ground, warm-white ink, one cobalt signal, Geist with a mono
+  line for the facts, and the stage dust drifting behind the name.
+*/
+
+const GROUND = "#050505";
+const INK = "#f2f2ee";
+const INK_DIM = "#b0b0a8";
+const INK_MUTE = "#83837b";
+const SIGNAL = "#5e8bff";
+const EASE_STAGE = Easing.bezier(0.16, 1, 0.3, 1);
+
+const SANS = "Geist";
+const MONO = "Geist Mono";
+
+loadFont({ family: SANS, url: staticFile("fonts/Geist-SemiBold.woff2"), weight: "600" });
+loadFont({ family: SANS, url: staticFile("fonts/Geist-Medium.woff2"), weight: "500" });
+loadFont({ family: MONO, url: staticFile("fonts/GeistMono-Medium.woff2"), weight: "500" });
+
+/** Deterministic dust: the same field on every render. */
+function mulberry32(seed: number) {
+  return () => {
+    seed |= 0;
+    seed = (seed + 0x6d2b79f5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const rand = mulberry32(2026);
+const DUST = Array.from({ length: 160 }, () => ({
+  x: rand(),
+  y: rand(),
+  r: 0.9 + rand() * 1.5,
+  a: 0.18 + rand() * 0.5,
+  phase: rand() * Math.PI * 2,
+  drift: 4 + rand() * 8,
+}));
+
+const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
 export const ProfileIntro: React.FC = () => {
   const frame = useCurrentFrame();
-  const enter = interpolate(frame, [3, 20], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: EASE,
-  });
-  const exit = interpolate(frame, [84, 95], [1, 0], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  });
+  const { durationInFrames, width, height } = useVideoConfig();
+
+  /* Every periodic motion runs on the loop's own period, so frame 95 hands
+     to frame 0 without a seam. */
+  const loop = (frame / durationInFrames) * Math.PI * 2;
+
+  const kicker = interpolate(frame, [0, 14], [0, 1], { ...clamp, easing: EASE_STAGE });
+  const name = interpolate(frame, [4, 28], [0, 1], { ...clamp, easing: EASE_STAGE });
+  const line = interpolate(frame, [22, 42], [0, 1], { ...clamp, easing: EASE_STAGE });
+  const rail = interpolate(frame, [0, durationInFrames - 10], [0, 1], clamp);
+  const exit = interpolate(frame, [durationInFrames - 10, durationInFrames - 1], [1, 0], clamp);
 
   return (
-    <AbsoluteFill
-      style={{
-        overflow: "hidden",
-        background: INK,
-        color: PAPER,
-        fontFamily: "Arial, Helvetica, sans-serif",
-        opacity: exit,
-      }}
-    >
+    <AbsoluteFill style={{ overflow: "hidden", background: GROUND, color: INK, opacity: exit }}>
+      <svg width={width} height={height} style={{ position: "absolute", inset: 0 }} aria-hidden="true">
+        {DUST.map((d, i) => {
+          /* Each point falls slowly toward the light on its own phase and
+             fades before it arrives: always gathering, never arriving. */
+          const t = (Math.sin(loop + d.phase) + 1) / 2;
+          return (
+            <circle
+              key={i}
+              cx={d.x * width}
+              cy={d.y * height - t * d.drift}
+              r={d.r}
+              fill={INK}
+              opacity={d.a * (0.55 + 0.45 * Math.sin(loop * 2 + d.phase))}
+            />
+          );
+        })}
+      </svg>
+
       <div
         style={{
           position: "absolute",
-          top: 42,
-          left: 52,
-          right: 52,
-          display: "flex",
-          justifyContent: "space-between",
-          color: MUTED,
-          fontSize: 15,
-          fontWeight: 700,
-          letterSpacing: "0.18em",
-          opacity: enter,
+          left: 56,
+          top: 112,
+          fontFamily: `${SANS}, Helvetica, Arial, sans-serif`,
+          fontWeight: 600,
+          fontSize: 13,
+          letterSpacing: "0.12em",
+          textTransform: "uppercase",
+          color: SIGNAL,
+          opacity: kicker,
+          transform: `translateY(${(1 - kicker) * -8}px)`,
         }}
       >
-        <span>LUCASDUYS.COM</span>
-        <span>FORGE&nbsp;&nbsp;/&nbsp;&nbsp;STACKLINK</span>
+        Founder / AI engineer
       </div>
 
       <div
         style={{
           position: "absolute",
-          left: 49,
-          top: 118,
-          fontSize: 130,
-          fontWeight: 900,
-          letterSpacing: "-0.075em",
-          lineHeight: 0.83,
+          left: 52,
+          top: 136,
+          fontFamily: `${SANS}, Helvetica, Arial, sans-serif`,
+          fontWeight: 600,
+          fontSize: 118,
+          letterSpacing: "-0.035em",
+          lineHeight: 1,
           whiteSpace: "nowrap",
-          clipPath: `inset(0 ${100 - enter * 100}% 0 0)`,
-          transform: `translateY(${(1 - enter) * 22}px)`,
+          clipPath: `inset(0 ${(1 - name) * 100}% 0 0)`,
+          transform: `translateY(${(1 - name) * 18}px)`,
         }}
       >
-        LUCAS DUYS
+        Lucas Duys
       </div>
 
       <div
         style={{
           position: "absolute",
-          left: 52,
-          bottom: 58,
-          width: 856,
-          height: 2,
-          background: "rgba(239, 240, 232, 0.18)",
+          left: 56,
+          top: 278,
+          fontFamily: `${MONO}, ui-monospace, monospace`,
+          fontWeight: 500,
+          fontSize: 17,
+          letterSpacing: "-0.01em",
+          color: INK_DIM,
+          opacity: line,
+          transform: `translateY(${(1 - line) * 10}px)`,
         }}
       >
-        <div
-          style={{
-            width: `${enter * 100}%`,
-            height: "100%",
-            background: ACCENT,
-          }}
-        />
+        Building Athren. Antler ONE, September 2026.
+      </div>
+
+      <div
+        style={{
+          position: "absolute",
+          right: 56,
+          bottom: 100,
+          fontFamily: `${MONO}, ui-monospace, monospace`,
+          fontWeight: 500,
+          fontSize: 13,
+          letterSpacing: "0.02em",
+          color: INK_MUTE,
+          opacity: line,
+        }}
+      >
+        lucasduys.com
+      </div>
+
+      {/* The film's progress rail, filling over one loop. */}
+      <div
+        style={{
+          position: "absolute",
+          right: 40,
+          top: 128,
+          width: 2,
+          height: 128,
+          background: "rgba(242, 242, 238, 0.15)",
+        }}
+      >
+        <div style={{ width: "100%", height: `${rail * 100}%`, background: INK, opacity: 0.75 }} />
       </div>
     </AbsoluteFill>
   );

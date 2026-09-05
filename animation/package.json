@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.503",
+    "@remotion/fonts": "4.0.503",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.503"
@@ -22,7 +23,7 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "render": "remotion render src/index.ts ProfileIntro ../assets/profile-intro.gif --codec=gif --number-of-gif-loops=0",
-    "render:still": "remotion still src/index.ts ProfileIntro ../assets/profile-intro-static.png --frame=36",
+    "render:still": "remotion still src/index.ts ProfileIntro ../assets/profile-intro-static.png --frame=60",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
