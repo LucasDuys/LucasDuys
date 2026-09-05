@@ -135,7 +135,7 @@ export const ProfileIntro: React.FC = () => {
           transform: `translateY(${(1 - line) * 10}px)`,
         }}
       >
-        Building Athren. Antler ONE, September 2026.
+        Building in stealth. Antler ONE, September 2026.
       </div>
 
       <div

@@ -2,14 +2,14 @@
   <a href="https://lucasduys.com">
     <picture>
       <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-intro-static.png">
-      <img src="./assets/profile-intro.gif" alt="Lucas Duys. Founder of Athren, AI engineer. Antler ONE, September 2026." width="100%">
+      <img src="./assets/profile-intro.gif" alt="Lucas Duys. Founder and AI engineer. Antler ONE, September 2026." width="100%">
     </picture>
   </a>
 </p>
 
-### Now: [Athren](https://athren.nl)
+### Now
 
-Software that does the work, then waits for your yes. Athren reads a product's funnel, finds the step where the most people fall out, writes the experiment, builds the variant inside the team's own codebase, and ships it once someone approves it. Twenty experiments a month, nothing live without a yes. Building it in the Antler ONE September 2026 cohort.
+Building a new company, in stealth for now, in the Antler ONE September 2026 cohort.
 
 ### Before: [Stacklink](https://stacklink.nl)
 
